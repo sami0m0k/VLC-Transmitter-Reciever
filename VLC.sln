@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.438
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VLC.Apps.Transmitter", "VLC.Application.Transmitter\VLC.Apps.Transmitter.csproj", "{4511C787-BFC4-4D82-A37F-9866A135F168}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VLC.Apps.Receiver", "VLC.Application.Receiver\VLC.Apps.Receiver.csproj", "{0AEC6A1A-252E-4090-9723-1852FCCA6B0C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VLC.Arduino.Receiver", "VLC.Arduino.Receiver\VLC.Arduino.Receiver.vcxproj", "{C5F80730-F44F-4478-BDAE-6634EFC2CA88}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VLC.Arduino.Transmitter", "VLC.Arduino.Transmitter\VLC.Arduino.Transmitter.vcxproj", "{6AED3C8E-1D6D-4495-8B4F-C95AE32F9B89}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4511C787-BFC4-4D82-A37F-9866A135F168}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4511C787-BFC4-4D82-A37F-9866A135F168}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4511C787-BFC4-4D82-A37F-9866A135F168}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{4511C787-BFC4-4D82-A37F-9866A135F168}.Debug|x86.Build.0 = Debug|Any CPU
+		{4511C787-BFC4-4D82-A37F-9866A135F168}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4511C787-BFC4-4D82-A37F-9866A135F168}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4511C787-BFC4-4D82-A37F-9866A135F168}.Release|x86.ActiveCfg = Release|Any CPU
+		{4511C787-BFC4-4D82-A37F-9866A135F168}.Release|x86.Build.0 = Release|Any CPU
+		{0AEC6A1A-252E-4090-9723-1852FCCA6B0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AEC6A1A-252E-4090-9723-1852FCCA6B0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AEC6A1A-252E-4090-9723-1852FCCA6B0C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{0AEC6A1A-252E-4090-9723-1852FCCA6B0C}.Debug|x86.Build.0 = Debug|Any CPU
+		{0AEC6A1A-252E-4090-9723-1852FCCA6B0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AEC6A1A-252E-4090-9723-1852FCCA6B0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AEC6A1A-252E-4090-9723-1852FCCA6B0C}.Release|x86.ActiveCfg = Release|Any CPU
+		{0AEC6A1A-252E-4090-9723-1852FCCA6B0C}.Release|x86.Build.0 = Release|Any CPU
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Debug|Any CPU.ActiveCfg = Release|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Debug|Any CPU.Build.0 = Release|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Debug|x86.ActiveCfg = Debug|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Debug|x86.Build.0 = Debug|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Release|Any CPU.ActiveCfg = Release|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Release|x86.ActiveCfg = Release|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Release|x86.Build.0 = Release|Win32
+		{6AED3C8E-1D6D-4495-8B4F-C95AE32F9B89}.Debug|Any CPU.ActiveCfg = Release|Win32
+		{6AED3C8E-1D6D-4495-8B4F-C95AE32F9B89}.Debug|Any CPU.Build.0 = Release|Win32
+		{6AED3C8E-1D6D-4495-8B4F-C95AE32F9B89}.Debug|x86.ActiveCfg = Debug|Win32
+		{6AED3C8E-1D6D-4495-8B4F-C95AE32F9B89}.Debug|x86.Build.0 = Debug|Win32
+		{6AED3C8E-1D6D-4495-8B4F-C95AE32F9B89}.Release|Any CPU.ActiveCfg = Release|Win32
+		{6AED3C8E-1D6D-4495-8B4F-C95AE32F9B89}.Release|x86.ActiveCfg = Release|Win32
+		{6AED3C8E-1D6D-4495-8B4F-C95AE32F9B89}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9EEB0637-D949-4FF6-A109-08656988CE6C}
+	EndGlobalSection
+EndGlobal
